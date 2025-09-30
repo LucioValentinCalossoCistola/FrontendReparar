@@ -3,13 +3,24 @@ import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: 'TU_API_KEY',
-  authDomain: 'TU_AUTH_DOMAIN',
-  projectId: 'TU_PROJECT_ID',
-  storageBucket: 'TU_STORAGE_BUCKET',
-  messagingSenderId: 'TU_MESSAGING_SENDER_ID',
-  appId: 'TU_APP_ID',
+
+  apiKey: "AIzaSyC8osUuIoSbzj3BkwsdwnCVEAT5c1XCTnM",
+
+  authDomain: "repar-ar.firebaseapp.com",
+
+  projectId: "repar-ar",
+
+  storageBucket: "repar-ar.firebasestorage.app",
+
+  messagingSenderId: "770638189779",
+
+  appId: "1:770638189779:web:1702367a79cdf75cabb026",
+
+  measurementId: "G-3ZTLFEZRWB"
+
 };
+
+
 
 export const firebaseApp = initializeApp(firebaseConfig);
 export const firestore = getFirestore(firebaseApp);
